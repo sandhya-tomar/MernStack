@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Board</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    td {
+      width: 60px;
+      height: 60px;
+    }
+    /* Black squares */
+    tr:nth-child(odd) td:nth-child(even),
+    tr:nth-child(even) td:nth-child(odd) {
+      background-color: black;
+    }
+    /* White squares */
+    tr:nth-child(odd) td:nth-child(odd),
+    tr:nth-child(even) td:nth-child(even) {
+      background-color: white;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chess Board</h1>
+  <table border="1">
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+  </table>
+</body>
+</html>
